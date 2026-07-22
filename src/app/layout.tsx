@@ -32,6 +32,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <h1>Build in layout by next js or main layout</h1>
+        // And One more thing the children is everything in next js without it is nothing
         {children}
         </body>
     </html>

@@ -1,6 +1,7 @@
 import FeaturesSections from "@/Components/FeaturesSections";
 import HeroSection from "@/Components/HeroSection";
 import InfiniteCards from "@/Components/InfiniteCards";
+import UpCommingWebinars from "@/Components/UpCommingWebinars";
 import WhyChooseUs from "@/Components/WhyChooseUs";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <FeaturesSections />
       <WhyChooseUs />
       <InfiniteCards />
+      <UpCommingWebinars/>
     </main>
   );
 }

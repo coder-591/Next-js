@@ -1,4 +1,5 @@
 import FeaturesSections from "@/Components/FeaturesSections";
+import Footer from "@/Components/Footer";
 import HeroSection from "@/Components/HeroSection";
 import InfiniteCards from "@/Components/InfiniteCards";
 import Instructors from "@/Components/Instructors";
@@ -14,6 +15,7 @@ export default function Home() {
       <InfiniteCards />
       <UpCommingWebinars/>
       <Instructors />
+      <Footer />
     </main>
   );
 }
